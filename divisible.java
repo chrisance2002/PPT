@@ -1,11 +1,8 @@
-import java.util.Scanner;
 public class divisible
 {
     public static void main (String [] args)
     {
-        Scanner s1= new Scanner(System.in);
-        System.out.print("Number: ");
-        int a= s1.nextInt();
+        int a= 44;
         System.out.println("Number is: "+a);
         if(a%5==0 || a%11==0)
         {
